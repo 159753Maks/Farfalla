@@ -7,8 +7,17 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: aqua;
     position: fixed;
+    z-index: 5;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.header.sticky {
+    background-color: #FFFFFF;
 }
 
 .logo{
@@ -29,7 +38,6 @@
     align-items: center;
 }
 
-
 .nav__link{
     text-decoration: none;
     cursor:pointer ;
@@ -43,15 +51,94 @@
 .nav__link:first-child {
     margin-left: 0;
 }
-/* ---- particles.js container ---- */
 
+.button-header{
+    width: 130px;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px white solid;
+}
+
+.button-header__tetx{
+    color: #FFFFFF;
+    font-family: "SF-Ui-Display-Medium";
+    font-size: 15px;
+    line-height: 18px;
+}
+
+/* MAIN */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.main__text-1{
+    font-family: "TT-Norms-Pro-Regular";
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.main__text-2{
+    font-family: "TT-Norms-Pro-bold";
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.main__button{
+    margin-top: 10px;
+    width: 265px;
+    height: 40px;
+    border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.main__button__text{
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.main__cost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #FFFFFF;
+    top: 600px;
+    left: 75px;
+    z-index: 1;
+}
+
+.main__cost__text{
+    margin-left: 15px;
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 15px;
+    line-height: 18px;
+}
+/* ---- particles.js container ---- */
 #particles-js {
     width: 100%;
     height: 100%;
     background-color: #1C1C1C;
     background-image: url('');
     background-size: cover;
-    background-position: 50% 50%;
     background-repeat: no-repeat;
+    z-index: -1;
 }
 

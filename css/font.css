@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "TT-Norms-Pro-Regular";
+    src: url(../font/TT/TT_Norms_Pro_Regular.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "SF-Ui-Display-Medium";
+    src: url(../font/SF/sf-ui-display-medium-58646be638f96.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../font/Roboto-regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(../font/Roboto-bold.ttf) format("truetype");
+}

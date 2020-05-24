@@ -1,6 +1,5 @@
-
 /* header */
-.header{
+.header {
     width: 100%;
     height: 90px;
     display: flex;
@@ -17,42 +16,42 @@
 }
 
 .header.sticky {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo__text{
+.logo__text {
     margin-left: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "TT-Norms-Pro-Regular";
     font-size: 16px;
     line-height: 19px;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
 }
 
-.nav__link{
+.nav__link {
     text-decoration: none;
-    cursor:pointer ;
+    cursor: pointer;
     font-family: "SF-Ui-Display-Medium";
     margin-left: 35px;
     font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .nav__link:first-child {
     margin-left: 0;
 }
 
-.button-header{
+.button-header {
     width: 130px;
     padding: 5px 14px;
     display: flex;
@@ -61,21 +60,25 @@
     border: 1px white solid;
 }
 
-.button-header__tetx{
-    color: #FFFFFF;
+.button-header__tetx {
+    color: #ffffff;
     font-family: "SF-Ui-Display-Medium";
     font-size: 15px;
     line-height: 18px;
 }
 
+.button-header__link {
+    text-decoration: none;
+}
+
 /* MAIN */
-.main{
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main__text{
+.main__text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,62 +86,135 @@
     position: absolute;
 }
 
-.main__text-1{
+.main__text-1 {
     font-family: "TT-Norms-Pro-Regular";
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 15px;
     line-height: 18px;
 }
 
-.main__text-2{
+.main__text-2 {
     font-family: "TT-Norms-Pro-bold";
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 40px;
     line-height: 48px;
 }
 
-.main__button{
+.main__button {
     margin-top: 10px;
     width: 265px;
     height: 40px;
     border: 1px white solid;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 }
 
-.main__button__text{
+.main__button__link {
+    text-decoration: none;
+}
+
+.main__button__text {
     font-family: "TT-Norms-Pro-Regular";
     font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.main__cost{
+.main__cost {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    color: #FFFFFF;
-    top: 600px;
+    color: #ffffff;
+    bottom: 100px;
     left: 75px;
     z-index: 1;
 }
 
-.main__cost__text{
+.main__cost__text {
     margin-left: 15px;
     font-family: "TT-Norms-Pro-Regular";
     font-size: 15px;
     line-height: 18px;
 }
+
+.main__social__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+}
+
+.social__link {
+    margin-top: 40px;
+}
+
+.social__link:first-child {
+    margin-top: 0;
+}
+
+.teleg:hover {
+    stroke: #ffffff;
+    stroke-width: 1px;
+}
+
+.in:hover {
+    stroke: #ffffff;
+    stroke-width: 1px;
+}
+
+.insta:hover {
+    stroke: #ffffff;
+    stroke-width: 1px;
+}
+
+.arrow__link {
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    bottom: 100px;
+    outline: 0 !important;
+}
+
 /* ---- particles.js container ---- */
+
 #particles-js {
     width: 100%;
     height: 100%;
-    background-color: #1C1C1C;
-    background-image: url('');
+    background-color: #1c1c1c;
+    background-image: url("");
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
 }
 
+/* SERVICES */
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: red;
+    padding: 50px 0;
+}
+
+.service__text {
+    
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 24px;
+    line-height: 29px;
+    color: #1C1C1C;
+}
+
+.service__block {
+    margin-top: 20px;
+    width: 1160px;
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: saddlebrown;
+}

@@ -14,14 +14,14 @@
     position: absolute;
 }
 
-.main__text h3{
+.main__text h3 {
     font-family: "TT-Norms-Pro-Regular";
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
 }
 
-.main__text h1{
+.main__text h1 {
     font-family: "TT-Norms-Pro-bold";
     font-size: 40px;
     line-height: 48px;
@@ -150,3 +150,4 @@
     bottom: 15px;
     right: 15px;
 }
+

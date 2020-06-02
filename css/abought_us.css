@@ -1,0 +1,254 @@
+/* MAIN */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.main__text h3 {
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.main__text h1 {
+    font-family: "TT-Norms-Pro-bold";
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1c;
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Abought */
+
+.abought {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.abought_text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+
+.text {
+    width: 600px;
+
+}
+
+.text h1 {
+    font-family: "TT-Norms-Pro-bold";
+    font-size: 26px;
+    line-height: 31px;
+    color: #1C1C1C;
+}
+
+.text p {
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 15px;
+    line-height: 18px;
+    color: #1C1C1C;
+    margin-top: 5px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.project {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project p {
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1C1C1C;
+}
+
+.project span {
+    font-family: "TT-Norms-Pro-bold";
+    font-size: 24px;
+    line-height: 29px;
+    color: #1C1C1C;
+}
+
+.profi {
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profi p {
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 18px;
+    line-height: 22px;
+    color: #1C1C1C;
+}
+
+.profi span {
+    font-family: "TT-Norms-Pro-bold";
+    font-size: 24px;
+    line-height: 29px;
+    color: #1C1C1C;
+}
+
+.buttons {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    width: 255px;
+    height: 45px;
+    border: 1px solid #2A2A2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__link {
+    text-decoration: none;
+}
+
+.button__link__text {
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 15px;
+    line-height: 18px;
+    color: #2A2A2A;
+}
+
+.conect {
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 15px;
+    line-height: 18px;
+    color: #1C1C1C;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* IMG */
+.profis_imgs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteiner {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.block__h2 {
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    width: 45%;
+    height: 15px;
+    position: absolute;
+    bottom: 30%;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.block__h1 {
+    position: absolute;
+    left: 10.03%;
+    bottom: 22%;
+    font-family: "TT-Norms-Pro-bold";
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.block__p {
+    position: absolute;
+    left: 10.03%;
+    bottom: 10%;
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.prof_img {
+    margin: 15px 0;
+    position: relative;
+}
+
+.block__link {
+    display: flex;
+    position: absolute;
+    left: 10.03%;
+    bottom: 5%;
+    font-family: "TT-Norms-Pro-Regular";
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.block__link svg{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.prof_img:hover .block {
+    background: #1414148a;
+    display: block;
+}
+
+.principle{
+    width: 100%;
+    height: 500px;
+}

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/portfolio.css">
     <link rel="stylesheet" href="/css/font.css">
     <link rel="stylesheet" href="/css/reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -25,8 +26,21 @@
     <!-- PORTFOLIO -->
     <div class="portfolio">
 
+        <div class="portfolio__nav">
+
+            <a class="portfolio__nav-link" href="#" id="all" data-filter="all">Все</a>
+            <a class="portfolio__nav-link" href="#" id="shope" data-filter="shope">Интернет магазины</a>
+            <a class="portfolio__nav-link" href="#" id="landing" data-filter="landing">Сайт визитка</a>
+            <a class="portfolio__nav-link" href="#" id="catalog" data-filter="catalog">Каталог</a>
+            <a class="portfolio__nav-link" href="#" id="corporation" data-filter="corporation">Корпоративные сайты</a>
+            <a class="portfolio__nav-link" href="#" id="mobile" data-filter="mobile">Мобильные приложения</a>
+            <a class="portfolio__nav-link" href="#" id="logo" data-filter="logo">Логотипы</a>
+
+        </div>
+
         <div class="container">
-            <div class="div1 grid__div">
+
+            <div class="div1 grid__div" data-cat="shope">
                 <img src="/img/img_for_grid/olav-tvedt-6lSBynPRaAQ-unsplash 1.png" alt="error" class="medium" />
                 <div class="block">
                     <h2 class="block__h2">Корпоративный сайт</h2>
@@ -41,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="div2 grid__div">
+            <div class="div2 grid__div" data-cat="landing">
                 <img src="/img/img_for_grid/adils-photography-gmo6Ok9G0U8-unsplash 1.png" alt="error" class="medium" />
                 <div class="block">
                     <h2 class="block__h2">Корпоративный сайт</h2>
@@ -56,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="div3 grid__div">
+            <div class="div3 grid__div" data-cat="corporation">
                 <img src="/img/img_for_grid/ming-han-low-6C79Qa7txws-unsplash 2.png" alt="error" class="vertikal" />
                 <div class="block">
                     <h2 class="block__h2">Корпоративный сайт</h2>
@@ -71,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="div4 grid__div">
+            <div class="div4 grid__div" data-cat="logo">
                 <img src="/img/img_for_grid/screen-post-jGpgpFsCECc-unsplash 1.png" alt="error" class="medium" />
                 <div class="block">
                     <h2 class="block__h2">Корпоративный сайт</h2>
@@ -86,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="div5 grid__div">
+            <div class="div5 grid__div" data-cat="shope">
                 <img src="/img/img_for_grid/olav-tvedt-6lSBynPRaAQ-unsplash 1.png" alt="error" class="medium" />
                 <div class="block">
                     <h2 class="block__h2">Корпоративный сайт</h2>
@@ -101,7 +115,7 @@
                 </div>
             </div>
 
-            <div class="div6 grid__div">
+            <div class="div6 grid__div" data-cat="catalog">
                 <img src="/img/img_for_grid/quaid-lagan-hwjKJXdLqYM-unsplash 1.png" alt="error" class="horizontal" />
                 <div class="block">
                     <h2 class="block__h2">Корпоративный сайт</h2>
@@ -116,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="div7 grid__div">
+            <div class="div7 grid__div" data-cat="mobile">
                 <img src="/img/img_for_grid/screen-post-jGpgpFsCECc-unsplash 1.png" alt="error" class="medium" />
                 <div class="block">
                     <h2 class="block__h2">Корпоративный сайт</h2>
@@ -132,10 +146,12 @@
             </div>
         </div>
     </div>
-    
+
     <!-- scripts -->
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/filter.js"></script>
+    
 </body>
 
 </html>

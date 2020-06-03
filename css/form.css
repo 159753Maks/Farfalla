@@ -11,7 +11,7 @@
 }
 
 .form_text {
-    font-weight: bold;
+    font-family: "TT-Norms-Pro-Bold";
     font-size: 30px;
     letter-spacing: 1px;
 }
@@ -66,6 +66,7 @@ select {
 
 .sent {
     margin: auto;
+    padding: 15px 125px;
     border: none;
     color: white;
     background-color: black;
@@ -80,6 +81,7 @@ select {
 }
 
 .right2 button img {
+    margin-top: -5px;
     transition: ease all 0.6s;
 }
 
@@ -91,7 +93,7 @@ select {
     height: 20px;
     padding: 0px;
     margin: 10px;
-    background-image: url(/img/img_form/Vector-hover.png);
+    background-image: url(../img/img_form/Vector-hover.png);
     cursor: pointer;
     background-repeat: no-repeat;
 }
@@ -115,4 +117,8 @@ select {
     display: flex;
     width: 900px;
     height: 550px;
+}
+
+.no-overflow {
+    overflow: hidden;
 }

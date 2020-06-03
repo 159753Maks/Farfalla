@@ -1,69 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'TTNorms', sans-serif;
-}
-@font-face {
-    font-family: 'TTNorms';
-    src: url(../fonts/TTNorms/TTNorms-Regular.eot);
-}
 .left {
     display: flex;
-    flex-direction: column-reverse;  
+    flex-direction: column-reverse;
 }
+
 .right {
     display: flex;
     flex-direction: column;
     padding: 40px 0 40px 40px;
     width: 100%;
 }
-p {
+
+.form_text {
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 1px;
 }
+
 .row-one {
     display: flex;
     justify-content: space-between;
     padding: 70px 15px 15px 15px;
 }
+
 .row-sec {
     display: flex;
     justify-content: space-between;
     padding: 40px 15px 15px 15px;
 }
+
 form {
     width: 50%;
 }
-input, select {
+
+input,
+select {
     width: 75%;
     padding: 10px;
     border: none;
     border-bottom: 2px solid #A9A9A9;
     font-size: 15px;
-} 
+}
+
 select {
     width: 82%;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url('../img/Polygon\ 1.png') no-repeat right center;
+    background: url('../img/img_form/Polygon\ 1.png') no-repeat right center;
     background-position-x: 95%;
 }
+
 .row-third {
     display: flex;
     justify-content: space-between;
     padding: 70px 15px 15px 15px;
 }
+
 .row-third form {
     width: 100%;
 }
+
 .row-third form input {
     width: 87.5%;
 }
-button {
+
+.sent {
     margin: auto;
-    padding: 15px 125px;
     border: none;
     color: white;
     background-color: black;
@@ -71,13 +73,16 @@ button {
     transition: ease 0.6s all;
     cursor: pointer;
 }
-button:hover {
+
+.sent:hover {
     background-color: rgb(70, 69, 69);
     transition: ease 0.6s all;
 }
+
 .right2 button img {
     transition: ease all 0.6s;
 }
+
 .right2 button {
     border: none;
     background-color: white;
@@ -86,14 +91,16 @@ button:hover {
     height: 20px;
     padding: 0px;
     margin: 10px;
-    background-image: url(../img/Vector-hover.png);
+    background-image: url(/img/img_form/Vector-hover.png);
     cursor: pointer;
     background-repeat: no-repeat;
 }
+
 .right2 button img:hover {
     opacity: 0;
     transition: ease all 0.6s;
 }
+
 .page-wrapper2 button {
     color: white;
     background-color: rgba(0, 0, 0, 0);
@@ -102,6 +109,7 @@ button:hover {
     height: 50px;
     box-shadow: none;
 }
+
 .active {
     opacity: 1;
     display: flex;

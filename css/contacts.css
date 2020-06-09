@@ -39,7 +39,7 @@
     background-repeat: no-repeat;
 }
 
-/* MAIN */
+/* CONTACTS */
 .contacts {
     display: flex;
     flex-direction: column;
@@ -53,13 +53,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 60%;
-    background-color: blueviolet;
+    
 }
 
 .block1 {
     width: 50%;
     height: 370px;
-    background-color: brown;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,8 +70,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: burlywood;
-    width: 30%;
+    width: 35%;
     height: 30px;
 }
 
@@ -93,8 +92,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: burlywood;
-    width: 30%;
+    width: 35%;
     height: 30px;
 }
 
@@ -116,8 +114,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: burlywood;
-    width: 30%;
+    width: 35%;
     height: 30px;
 }
 
@@ -138,7 +135,7 @@
 .block2 {
     width: 50%;
     height: 370px;
-    background-color: wheat;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,7 +156,11 @@
     color: #000000;
 }
 
-.button_bl2 {
+.button__block{
+    margin-left: 40px;
+}
+
+.button {
     color: #2A2A2A;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #2A2A2A;
@@ -168,7 +169,7 @@
     box-shadow: none;
 }
 
-.button_block p {
+.button__block p {
     margin-top: 25px;
     font-family: "TT-Norms-Pro-Regular";
     font-size: 15px;
@@ -181,10 +182,37 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-right: 140px;
 }
 
 .social__link {
-    margin-left: 20px;
+   margin-left: 20px;
+}
+
+.social__link:first-child {
+    margin-left: 0;
+}
+
+.link svg:hover {
+    fill: #1C1C1C;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.link svg{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.iframe{
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 /* FORM */

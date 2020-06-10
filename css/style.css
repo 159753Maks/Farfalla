@@ -447,14 +447,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .dis__button {
-font-family: "TT-Norms-Pro-Regular";
-font-size: 15px;
-line-height: 18px;
-color: #1E1E1E;
+  font-family: "TT-Norms-Pro-Regular";
+  font-size: 15px;
+  line-height: 18px;
+  color: #1E1E1E;
 }
 
 /* Footer */

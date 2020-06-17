@@ -161,7 +161,7 @@
 
 #particles-js {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #1c1c1c;
   background-image: url("");
   background-size: cover;
@@ -210,6 +210,44 @@
 .srevice__inside:hover {
   background-color: #2b2b2b;
   color: #ffffff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.srevice__inside:hover .more_link{
+  
+  color: #ffffff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.srevice__inside:hover svg {
+  
+  fill: #ffffff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.srevice__inside:hover .inside__button {
+  border:1px solid #ffffff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.srevice__inside:hover .inside__button__link {
+  color: #FFFFFF;
   transition: 1s;
   -webkit-transition: 1s;
   -moz-transition: 1s;

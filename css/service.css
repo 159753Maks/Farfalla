@@ -150,3 +150,11 @@ main:last-of-type {
 .block:nth-last-of-type(2n) .right a:hover {
     border-bottom: 1px solid black;
 }
+@media (max-width: 768px) {
+    .block {
+        padding: 25px;
+    }
+    .right {
+        margin-left: 20px;
+    }
+}

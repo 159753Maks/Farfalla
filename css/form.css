@@ -122,3 +122,32 @@ select {
 .no-overflow {
     overflow: hidden;
 }
+
+@media (max-width: 768px) {
+    .left img {
+        display: none;
+    }
+    .page-wrapper {
+        width: 90%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    .active {
+        z-index: 101;
+    }
+}
+@media (max-width: 380px) {
+    .page-wrapper {
+        width: 100%;
+    }
+    .active {
+        z-index: 101;
+    }
+    .right {
+        padding: 10px 10px 0 10px;
+    }
+    .form_text {
+        font-size: 20px;
+        text-align: center;
+    }
+}

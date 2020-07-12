@@ -158,3 +158,18 @@ main:last-of-type {
         margin-left: 20px;
     }
 }
+@media (max-width: 380px) {
+    .block {
+        padding: 10px;
+    }
+    .center p:last-of-type {
+        padding-right: 5px;
+    }
+    .center {
+        padding: 10px;
+    }
+    .right {
+        margin: 0;
+        padding: 5px;
+    }
+}
